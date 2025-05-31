@@ -1,0 +1,20 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Blue gradient for the icon background -->
+    <linearGradient id="iconGradient" x1="0" y1="0" x2="0" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2196F3"/>
+      <stop offset="1" stop-color="#0D8AF0"/>
+    </linearGradient>
+    <!-- Blue to purple gradient for the text -->
+    <linearGradient id="textGradient" x1="70" y1="30" x2="200" y2="30" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#377DFF"/>
+      <stop offset="1" stop-color="#8F4FFF"/>
+    </linearGradient>
+  </defs>
+  <!-- Rounded square with gradient -->
+  <rect x="10" y="10" width="40" height="40" rx="10" fill="url(#iconGradient)"/>
+  <!-- White J in the center -->
+  <text x="30" y="38" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="bold" fill="white">J</text>
+  <!-- Gradient JobQuest text -->
+  <text x="60" y="38" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="bold" fill="url(#textGradient)">JobQuest</text>
+</svg>
