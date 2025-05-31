@@ -31,7 +31,7 @@ cloudinaryV2.config({
 
 // CORS configuration
 const allowedOrigins = [
-  'https://job-quest-eight.vercel.app/',
+  'https://job-quest-eight.vercel.app',
   'http://localhost:3000',
   'http://localhost:5173',
   process.env.CLIENT_URL
