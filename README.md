@@ -1,98 +1,83 @@
-# JobQuest - MERN Stack Job Portal
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=100000&color=1a8cc9&center=true&vCenter=true&width=800&lines=JobQuest" alt="Typing Animation" />
+</h1>
+<p align="center">
+  <b>Your Gateway to Smarter Job Hunting & Recruitment</b><br>
+  <a href="https://job-quest-eight.vercel.app/">Live Demo</a> |
+  <a href="https://jobquest-backend.onrender.com/">Backend API</a>
+</p>
 
-JobQuest is a modern, full-featured job portal web application built with the MERN stack (MongoDB, Express, React, Node.js). It allows job seekers to search and apply for jobs, and recruiters to post and manage job listings.
+## ✨ Overview
 
----
+**JobQuest** is a modern, full-featured job portal built with the MERN stack. It enables job seekers to search and apply for jobs, while recruiters can post and manage job listings — all through a clean, responsive UI and secure authentication. JobQuest aims to streamline the recruitment process and connect talent with opportunity efficiently.
 
-## 🌍 Live Demo
+## 🚀 Quick Links
 
-- **Frontend:** [https://job-quest-eight.vercel.app](https://job-quest-eight.vercel.app)
-- **Backend API:** [https://jobquest-ifq1.onrender.com](https://jobquest-ifq1.onrender.com)
-
----
-
-## 🚀 Features
-
-- User authentication (job seekers & recruiters)
-- Job search with filters (category, location, keyword)
-- Job application and tracking
-- Recruiter dashboard for posting and managing jobs
-- Company profile management
-- Responsive, modern UI (Tailwind CSS)
-- Secure REST API
-
----
+- 🖥️ <b>Live Demo:</b> [job-quest-eight.vercel.app](https://job-quest-eight.vercel.app/)
+- 🛠️ <b>Backend API:</b> [jobquest.onrender.com/](https://jobquest-ifq1.onrender.com/)
 
 ## 🛠️ Tech Stack
 
 - **Frontend:** React, Vite, Tailwind CSS
 - **Backend:** Node.js, Express.js
-- **Database:** MongoDB
+- **Database:** MongoDB Atlas
 - **Authentication:** JWT, Clerk
-- **Deployment:** Vercel (frontend), Render (backend)
+- **Styling:** CSS Modules, Tailwind CSS
 
----
 
-## ⚡ Getting Started (Local Development)
+## 🌟 Features
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/Lokesh-reddy18/JobQuest.git
-cd jobquest
+- **Job Search & Apply:** Explore and filter job listings and apply seamlessly as a job seeker.
+- **Recruiter Dashboard:** Post, edit, and manage job listings efficiently as a recruiter.
+- **User Authentication:** Secure sign-up, login, and role-based profile management.
+- **Application Tracking:** Track applications and get real-time status updates.
+- **Resume Management:** Upload and manage your resume directly from your profile.
+- **Responsive UI:** Enjoy a modern, mobile-friendly, and fast user experience.
+- **Role-based Access:** Separate feature sets and dashboards for seekers and recruiters.
+
+## 📦 Project Structure
+
 ```
-
-### 2. Setup the backend
-```bash
-cd server
-npm install
-# Create a .env file (see .env.example)
-npm start
-```
-
-### 3. Setup the frontend
-```bash
-cd ../client
-npm install
-npm run dev
-```
-
-### 4. Open in browser
-Visit [http://localhost:5173](http://localhost:5173)
-
----
-
-## 🌐 Deployment
-
-- **Frontend:** Deploy `/client` to [Vercel](https://vercel.com/)
-- **Backend:** Deploy `/server` to [Render](https://render.com/)
-- Set environment variables on both platforms as needed
-
----
-
-## 📝 Environment Variables
-
-**Backend (.env):**
-```
-PORT=5000
-MONGODB_URI=your_mongodb_uri
-JWT_SECRET=your_jwt_secret
-CLERK_SECRET_KEY=your_clerk_secret
-CLIENT_URL=https://your-frontend.vercel.app
-```
-
-**Frontend (.env):**
-```
-VITE_BACKEND_URL=https://your-backend.onrender.com
+JobQuest/
+├── client/    # React, Vite, Tailwind CSS client app (frontend)
+├── server/    # Node.js, Express, MongoDB REST API (backend)
+├── LICENSE
+├── README.md
+└── JobListing.jsx
 ```
 
 ---
 
-## 🤝 Contributing
+## 🚀 Getting Started
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Lokesh-reddy18/JobQuest.git
+   cd JobQuest
+   ```
 
----
+2. **Setup Backend**
+   ```bash
+   cd server
+   npm install
+   npm start
+   ```
+   The backend server runs on [http://localhost:5000](http://localhost:5000) by default.
+
+3. **Setup Frontend**
+   Open a new terminal window/tab:
+   ```bash
+   cd client
+   npm install
+   npm run dev
+   ```
+   The frontend dev server runs on [http://localhost:3000](http://localhost:3000) by default.
 
 ## 📄 License
 
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+<p align="center"><i>JobQuest — Find your dream job or top talent with ease!</i></p>
+<p align="center"><b>Made by Kolli Lokesh Reddy</b></p>
