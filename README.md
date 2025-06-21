@@ -9,7 +9,7 @@
 
 ## ✨ Overview
 
-**JobQuest** is a modern, full-featured job portal built with the MERN stack. It enables job seekers to search and apply for jobs, while recruiters can post and manage job listings — all through a clean, responsive UI and secure authentication. JobQuest aims to streamline the recruitment process and connect talent with opportunity efficiently.
+**JobQuest** is a full-featured job portal built with the MERN stack. It enables job seekers to search and apply for jobs, while recruiters can post and manage job listings — all through a clean, responsive UI and secure authentication. JobQuest aims to streamline the recruitment process and connect talent with opportunity efficiently.
 
 ## 🚀 Quick Links
 
